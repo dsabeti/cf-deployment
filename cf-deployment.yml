@@ -1678,6 +1678,8 @@ instance_groups:
         rep:
           preloaded_rootfses:
           - cflinuxfs4:/var/vcap/packages/cflinuxfs4/rootfs.tar
+          - cflinuxfs4-run:/var/vcap/packages/cflinuxfs4/rootfs.tar
+          - cflinuxfs4-build:/var/vcap/packages/cflinuxfs4/rootfs.tar
       containers:
         proxy:
           enabled: true
